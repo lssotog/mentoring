@@ -50,3 +50,11 @@ console.log("lowToHight", lowToHight);
 
 let hightToLow = filterObject.sort((a, b) => b.age - a.age);
 console.log("----> lowToHight", lowToHight);
+
+const OTHER_DATA = [1, 2, 3, 4, 5];
+
+const arrayExercise = (arr) => {
+  return data.sort((a, b) => b.age - a.age);
+};
+
+arrayExercise(OTHER_DATA);
